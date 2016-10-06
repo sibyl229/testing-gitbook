@@ -11,5 +11,5 @@
     * [Chapter 3](part1/chapter3.md)
 ----
 
-* [Last part](part3/title.md)
+* [Last part](part3/README.md)
 
