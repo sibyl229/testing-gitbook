@@ -5,10 +5,9 @@
 
 
 * [Part I](part1/README.md)
-    * [First Chapter](chapter1.md)
+    * [Chapter 1](part1/chapter1.md)
+        * [Chapter 1.1](part1/chapter1/chapter1.1/README.md)
     * [Writing is nice](part1/README.md#writing)
-        * [Writing is nnnice](part1/README.md#writing)
-    * [GitBook is nice](part1/README.md#gitbook)
 * [Part II](part2/README.md)
     * [We love feedback](part2/README.md#feedback)
     * [Better tools for authors](part2/README.md#tools)
