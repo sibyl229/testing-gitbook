@@ -1,10 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+
 
 
 * [Part I](part1/README.md)
+    * [First Chapter](chapter1.md)
     * [Writing is nice](part1/README.md#writing)
         * [Writing is nnnice](part1/README.md#writing)
     * [GitBook is nice](part1/README.md#gitbook)
