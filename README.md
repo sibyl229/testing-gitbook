@@ -8,12 +8,14 @@ Here is some test edits.
 
 [pdf](https://www.gitbook.com/download/pdf/book/sibyl229/testing/v/release-0.0.1)
 
-{{ gitbook.version }}
+<button id="download-pdf">Download PDF</button>
 
-{{ file.path }}
-
-{{ page.title }}
+<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
 
 <script>
 alert('aaa');
+$('#download-pdf').click(function(){
+  var v = $('.version-select option:selected').value();
+  alert(v);
+});
 </script>
