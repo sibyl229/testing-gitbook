@@ -6,7 +6,7 @@ This file file serves as your book's preface, a great place to describe your boo
 
 Here is some test edits.
 
-[pdf](https://www.gitbook.com/download/pdf/book/sibyl229/testing/v/release-0.0.1)
+I'm master branch..
 
 <button id="download-pdf">Download PDF</button>
 
