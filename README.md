@@ -9,3 +9,5 @@ Here is some test edits.
 [pdf](https://www.gitbook.com/download/pdf/book/sibyl229/testing/v/release-0.0.1)
 
 {{ gitbook.version }}
+
+{{file.path}}
