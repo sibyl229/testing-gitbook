@@ -14,14 +14,14 @@ Here is some test edits.
 
 <script>
 $('#download-pdf').click(function(){
-  var selected = $('.version-select option:selected');
-  var version;
-  var versionText;
+  var selected = $('.versions-select option:selected');
+  var version = 'master';
+  // var versionText;
   if (selected) {
-    version = selected.value();
-    versionText = selected.versionText();
+    version = selected.val();
+    // versionText = selected.versionText();
   }
+  window.location.href = 'https://www.gitbook.com/download/pdf/book/sibyl229/testing/v/' + version;
   console.log(version);
-  console.log(v);
 });
 </script>
