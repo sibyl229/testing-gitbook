@@ -13,9 +13,15 @@ Here is some test edits.
 <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
 
 <script>
-alert('aaa');
 $('#download-pdf').click(function(){
-  var v = $('.version-select option:selected').value();
-  alert(v);
+  var selected = $('.version-select option:selected');
+  var version;
+  var versionText;
+  if (selected) {
+    version = selected.value();
+    versionText = selected.versionText();
+  }
+  console.log(version);
+  console.log(v);
 });
 </script>
