@@ -13,3 +13,7 @@ Here is some test edits.
 {{ file.path }}
 
 {{ page.title }}
+
+<script>
+alert('aaa');
+</script>
