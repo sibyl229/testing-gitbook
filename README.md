@@ -11,3 +11,5 @@ Here is some test edits.
 {{ gitbook.version }}
 
 {{ file.path }}
+
+{{ page.title }}
