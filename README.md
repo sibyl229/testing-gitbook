@@ -17,7 +17,7 @@ $('#download-pdf').click(function(){
   var selected = $('.versions-select option:selected');
   var version = 'master';
   // var versionText;
-  if (selected) {
+  if (selected.length) {
     version = selected.val();
     // versionText = selected.versionText();
   }
