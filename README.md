@@ -10,4 +10,4 @@ Here is some test edits.
 
 {{ gitbook.version }}
 
-{{file.path}}
+{{ file.path }}
