@@ -18,7 +18,7 @@ $('#download-pdf').click(function(){
   var version = 'master';
   // var versionText;
   if (selected.length) {
-    version = selected.val();
+    version = selected.text();
     // versionText = selected.versionText();
   }
   window.location.href = 'https://www.gitbook.com/download/pdf/book/sibyl229/testing/v/' + version;
